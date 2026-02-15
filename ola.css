@@ -11,7 +11,8 @@ ul{
 }
 a{
     color: white;
-    background: black;
+    /* background: black; */
+    background: yellowgreen;
     
 }
 li{
@@ -35,6 +36,9 @@ td{
 }
 tr{
     color: rgba(193, 189, 189, 0.7);
+}
+h1{
+    background-color: gray;
 }
 /* being specific with the input am styling */
 input[type="text"]{
