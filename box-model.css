@@ -1,0 +1,86 @@
+body{
+    background-image: url(one.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: red;
+    background-color: rgba(0, 128, 0, 0.6);
+    /* background-image:url(six.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+
+    /* padding-top:  2px ; */
+    /* padding-right: 5px; */
+    /* padding-bottom: 5px; */
+    /* padding-left: 10px; */;
+    /* BORDER */
+    border-width: 5PX;
+    border-style: solid;
+    border-color: red;
+
+    /* border:10px dashed black; */
+    border-radius: 50px;
+    text-shadow: 5px 10px 10px black;
+    box-shadow: inset 0px 0px 20px 10px black;
+
+    padding: 10px 10px 10px 15px;
+
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-left: 10px; */
+
+    margin: 10px 20px 5px 10px;
+     /* CSS.DIMENSION unit */
+     width: 900px;
+     height: 900px;
+
+
+}
+h2{
+    color: brown;
+    background-color: rgb(185, 185, 45);
+    /* background-image:url(five.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+
+    padding:2px 5px 5px 10px;
+
+    margin: 10px 20px 5px 10px;
+
+}
+ol{
+   background-color:rgb(138, 50, 65) ; 
+}
+li{
+    background-color:rgb(151, 132, 132) ;
+    /* padding-top:  2px ;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px; */
+
+    padding: 2px 5px 5px 10px;
+
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-left: 10px; */
+
+    margin: 10px 20px 5px 10px;
+    /* width: 5%; */
+    width: fit-content;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 300px;
+    object-fit: cover;
+
+    opacity: 0.3;
+}
+

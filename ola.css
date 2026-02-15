@@ -1,0 +1,71 @@
+ol{
+   /* padding: 0px; */
+   list-style-type: disc;
+   background-color: pink; 
+}
+ul{
+    padding: 5px;
+    list-style-type: alpha;
+    background-color: purple;
+
+}
+a{
+    color: white;
+    background: black;
+    
+}
+li{
+    color: white;
+    padding: 2px 0px;
+    margin: 5px 8px;
+    background: gray;
+}
+table{
+    background: rgb(44, 44, 108);
+    /* border: 10px groovegold; */
+}
+td{
+    padding: 30px;
+    border: none;
+    border-right: 1px solid white ;
+    border-left: 1px solid white ;
+    /* background: yellow; */
+    border-bottom: 5px solid rgba(166, 161, 161 0.5)
+    
+}
+tr{
+    color: rgba(193, 189, 189, 0.7);
+}
+/* being specific with the input am styling */
+input[type="text"]{
+    background: purple;
+    
+}
+input[type="email"]{
+    background: pink;
+    
+}
+input[type="password"]{
+    background: gray;
+    
+}
+input[type=radio]{
+    accent-color: blue;
+    
+}
+input[type=checkbox]{
+    accent-color:black;
+    
+}
+/* PSUEDO CLASSES::placeholder */
+input::placeholder{
+    color:purple;
+    font-size: 20px;
+    
+}
+/* PSUEDO SELECTOR:focus */
+input:focus{
+    background: yellow;
+    padding: 20px;
+    
+}

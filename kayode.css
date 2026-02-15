@@ -1,0 +1,103 @@
+.small-salewa{
+    width: 800px;
+    background: red;
+}
+.salewa{
+    display: flex;
+}
+.big-salewa{
+    cursor: progress;
+    width: 50px;
+    height: 50px;
+}
+.second{
+    visibility: hidden;
+}
+.white-salewa{
+    background: #464242;
+    width: 300px;
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    scrollbar-width: thin; 
+}
+.dark-salwa{
+
+}
+
+.black-salewa{
+    display: flex;
+    flex-direction: row;
+    background: purple;
+    overflow: scroll;
+    gap: 50px;
+    scrollbar-width: none;
+   
+}
+.short-salewa{
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50px;
+}
+.short-salewa:hover{
+    border-radius: 50px;
+    border: 10px groove yellow;
+}
+.short-salewa:active{
+    border-radius: 20px double pink;
+}
+.short-salewa:first-child{
+    border-radius: 100%;
+}
+
+.short-salewa:last-child{
+    border-radius: 50px inset gray;
+}
+.short-salewa:nth-child(odd){
+    border: 30px solid red;
+}
+.short-salewa:nth-child(odd){
+    border: 30px solid red;
+}
+.short-salewa:nth-child(even){
+    border: 30px solid green;
+}
+/* descendant selector */
+.black-salewa img{
+    width: 600px;
+    border-radius: 30px;
+}
+/* child selector parent>child */
+.all-menu>.menu1>li{
+    margin:2px 0px;
+    width: fit-content;
+    background: blue;
+    color: white;
+    padding: 50px;
+}
+.all-menu>.menu2>li{
+    margin:2px 0px;
+    width: fit-content;
+    background: green;
+    color: white;
+    padding: 50px;
+}
+.signin,.submit{
+    background: red;
+    border: 1px solid blue;
+}
+
+/* universal selector uses asteriks (*) */
+*{
+    font-family: monospace;
+}
+/* class selector */
+/* id selector */
+/* general sibling selector nn~*/
+.submit~p{
+    background: gold;
+}
+/* adjacent sibling selector + */
+.submit+p{
+    background: green;
+}
